@@ -1,0 +1,135 @@
+/* html{
+    background: lightgrey;
+} */
+body{
+    padding: 0;
+}
+body h1{
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+body label{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    padding: 15px;
+    margin: -15px;
+    width: 100%;
+    background: lightgrey;
+}
+
+#meme-form-body{
+    margin: 0px 50px 0px 50px;
+    padding: 0px;
+    align-items: center;
+}
+
+#meme-form-body p{
+    margin: 15px 150px 15px 150px;
+    text-align: left;
+}
+
+#meme-form-body input{
+    text-align: center;
+}
+
+#generate-button{
+    position: relative;
+    left: 47%;
+}
+
+#img-url{
+    width: 100%;
+}
+
+#top-text{
+    width: 100%;
+}
+
+#bottom-text{
+    width: 100%;
+    align-content: flex-end;
+}
+
+#meme-output{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+    padding: 15px;
+}
+
+
+#new-meme{
+    position: relative;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+#new-meme:hover{
+    opacity: 65%;
+}
+
+#new-top-text{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 90%;
+    word-wrap: normal;
+    word-wrap: break-word;
+    text-align: center;
+    line-height: 90%;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    text-shadow: -2px -2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, 2px 2px 0 #000; 
+}
+
+#new-bottom-text{
+    position: absolute;
+    color: white;
+    bottom: 6%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 90%;
+    word-wrap: normal;
+    word-wrap: break-word;
+    text-align: center;
+    line-height: 90%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    text-shadow: -2px -2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, 2px 2px 0 #000; 
+}
+
+#delete-btn{
+    position: absolute;
+    background: none;
+    border: none;
+    color: whitesmoke;
+    opacity: 0%;
+    font-size: 50px;
+    text-shadow: -1px -1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, 1px 1px 0 #000; 
+    top: 0%;
+    left: 90%;
+}
+
+/* .meme{
+    background: lightgrey;
+} */
+
+#new-meme:hover #delete-btn{
+    position: absolute;
+    background: none;
+    border: none;
+    color: whitesmoke;
+    opacity: 100%;
+    font-size: 50px;
+    text-shadow: -1px -1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, 1px 1px 0 #000;  
+    top: 0%;
+    left: 90%;
+}
