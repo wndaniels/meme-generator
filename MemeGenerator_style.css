@@ -118,10 +118,6 @@ header{
     left: 90%;
 }
 
-/* .meme{
-    background: lightgrey;
-} */
-
 #new-meme:hover #delete-btn{
     position: absolute;
     background: none;
